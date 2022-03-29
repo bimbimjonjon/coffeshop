@@ -1,0 +1,26 @@
+:root{
+    --white-color : #fff;
+    --black-color : #000;
+    --text-color : #333;
+    
+}
+*{
+    box-sizing: inherit;
+
+}
+html{
+    font-size: 62.5%;
+    font-family: "Inconsolata", sans-serif;
+    
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.menu-btn.active{
+    color: #fff;
+    background-color: #616161;
+}
+
+#drink{
+    display: none;
+}
